@@ -1,0 +1,16 @@
+{
+  "name": "silvestercountdown",
+  "version": "1.0.0",
+  "description": "a simple angular powered silvester countdown website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tilmann Bach",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.10.6"
+  }
+}
