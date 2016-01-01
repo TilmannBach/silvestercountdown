@@ -27,6 +27,7 @@
             vm.dateTime = new Date().toLocaleTimeString();
             var diffInMs = vm.deadline.diff(moment(), 'milliseconds');
             var span = moment.duration(diffInMs);
+            vm.days = span.days();
             vm.hours = span.hours();
             vm.minutes = span.minutes();
             vm.seconds = span.seconds();
